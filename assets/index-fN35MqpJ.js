@@ -13780,11 +13780,28 @@ function Iu({ className: f, variant: p, asChild: b = !1, ...s }) {
       },
     ],
   ],
-  Q0 = Ke("phone", X0),
-  Z0 = "/portofolio/assets/profile_khusnul.jpg",
-  V0 = "/portofolio/assets/project_thumbnail_1_placeholder-DIayBrlu.png",
-  L0 = "/portofolio/assets/project_thumbnail_2_placeholder-C43MfLdg.png",
-  K0 = "/portofolio/assets/project_thumbnail_3_placeholder-C5WrncWb.png";
+  Q0 = Ke("phone", X0);
+
+const WhatsAppIcon = [
+    [
+      "path",
+      {
+        d: "M20.52 3.48A11.8 11.8 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.1.55 4.18 1.6 6L0 24l6.17-1.59A11.96 11.96 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.18-1.24-6.17-3.48-8.52zM12 21.8a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.67.94.98-3.57-.24-.37A9.79 9.79 0 0 1 2.18 12C2.18 6.5 6.5 2.18 12 2.18c2.61 0 5.06 1.02 6.9 2.86A9.74 9.74 0 0 1 21.8 12c0 5.5-4.33 9.8-9.8 9.8z",
+        key: "wa-circle",
+        fill: "currentColor", // biar solid, tanpa stroke tebal
+      },
+    ],
+    [
+      "path",
+      {
+        d: "M16.7 13.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.1s-.8 1-1 1.2-.3.2-.6.1c-.3-.2-1.2-.4-2.3-1.4s-1.6-2-1.8-2.3c-.2-.3 0-.5.1-.6s.3-.3.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.6-1.6-.8-2.2c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1.1 1-1.1 2.5 1.1 2.9 1.3 3.1c.2.2 2.2 3.4 5.4 4.8.8.3 1.3.5 1.8.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3z",
+        key: "wa-inner",
+        fill: "currentColor",
+      },
+    ],
+  ],
+  WA0 = Ke("whatsapp", WhatsAppIcon),
+  Z0 = "./assets/profile_khusnul.jpg";
 function k0() {
   const f = [
       "JavaScript",
@@ -13804,25 +13821,7 @@ function k0() {
     //     description:
     //       "A full-stack e-commerce solution built with React and Node.js, featuring user authentication, payment integration, and admin dashboard.",
     //     image: V0,
-    //     technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
-    //     liveUrl: "#",
-    //     githubUrl: "#",
-    //   },
-    //   {
-    //     title: "Data Analytics Dashboard",
-    //     description:
-    //       "Interactive dashboard for data visualization and analytics, built with React and D3.js, processing large datasets efficiently.",
-    //     image: L0,
-    //     technologies: ["React", "D3.js", "Python", "PostgreSQL"],
-    //     liveUrl: "#",
-    //     githubUrl: "#",
-    //   },
-    //   {
-    //     title: "Design System Library",
-    //     description:
-    //       "Comprehensive design system and component library for consistent UI/UX across multiple applications.",
-    //     image: K0,
-    //     technologies: ["React", "Storybook", "Tailwind CSS", "TypeScript"],
+    //     technologies: ["React", "Node.js", "PostgreSQL", "Stripe API"],
     //     liveUrl: "#",
     //     githubUrl: "#",
     //   },
@@ -13889,12 +13888,12 @@ function k0() {
                       "text-foreground hover:text-primary transition-colors",
                     children: "Experience",
                   }),
-                  E.jsx("a", {
-                    href: "#projects",
-                    className:
-                      "text-foreground hover:text-primary transition-colors",
-                    children: "Projects",
-                  }),
+                  // E.jsx("a", {
+                  //   href: "#projects",
+                  //   className:
+                  //     "text-foreground hover:text-primary transition-colors",
+                  //   children: "Projects",
+                  // }),
                   E.jsx("a", {
                     href: "#education",
                     className:
@@ -13918,8 +13917,8 @@ function k0() {
         children: E.jsx("div", {
           className: "container-max",
           children: E.jsxs("div", {
-            className: "flex flex-col md:flex-row flex-col gap-12 mt-3",
-            style: { marginTop: "20px" },
+            className: "flex flex-col md:flex-row flex-col gap-12",
+            style: { marginTop: "30px" },
             children: [
               E.jsxs("div", {
                 className: "flex-1 text-center md:text-left",
@@ -13987,6 +13986,7 @@ function k0() {
         className: "section-padding",
         children: E.jsxs("div", {
           className: "container-max",
+          style: { marginTop: "10px" },
           children: [
             E.jsx("h2", {
               className: "text-3xl md:text-4xl font-bold text-center mb-12",
@@ -14041,6 +14041,7 @@ function k0() {
         className: "section-padding bg-muted/30",
         children: E.jsxs("div", {
           className: "container-max",
+          style: { marginTop: "10px" },
           children: [
             E.jsx("h2", {
               className: "text-3xl md:text-4xl font-bold text-center mb-12",
@@ -14185,6 +14186,7 @@ function k0() {
         className: "section-padding bg-muted/30",
         children: E.jsxs("div", {
           className: "container-max",
+          style: { marginTop: "10px" },
           children: [
             E.jsx("h2", {
               className: "text-3xl md:text-4xl font-bold text-center mb-12",
@@ -14243,6 +14245,7 @@ function k0() {
         className: "section-padding",
         children: E.jsxs("div", {
           className: "container-max",
+          style: { marginTop: "10px" },
           children: [
             E.jsx("h2", {
               className: "text-3xl md:text-4xl font-bold text-center mb-12",
@@ -14314,7 +14317,7 @@ function k0() {
                       onClick: () =>
                         window.open("http://wa.me/6281228478987", "_blank"),
                       children: [
-                        E.jsx(Q0, { className: "mr-2 h-5 w-5" }),
+                        E.jsx(WA0, { className: "mr-2 h-5 w-5" }),
                         "Send WhatsApp",
                       ],
                     }),
