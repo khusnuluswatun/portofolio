@@ -4089,7 +4089,11 @@
   }
 }
 .container-max {
-  max-width: var(--container-6xl);
+  /* max-width: var(--container-6xl); */
+  width: 1024px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  transform-origin: top center;
   margin-inline: auto;
 }
 .text-gradient {
@@ -4129,7 +4133,7 @@
 }
 .skill-tag {
   background-color: var(--secondary);
-  padding-inline: calc(var(--spacing) * 3);
+  padding-inline: calc(var(--spacing) * 8);
   padding-block: calc(var(--spacing) * 1);
   font-size: var(--text-sm);
   line-height: var(--tw-leading, var(--text-sm--line-height));

@@ -13806,14 +13806,14 @@ function k0() {
   const f = [
       "JavaScript",
       "HTML",
-      "Codeigniter",
+      "CodeIgniter",
       "CSS",
       "Oracle",
       "Git",
       "PostgreSQL",
       "MySQL",
       "Laravel",
-      "Jquery",
+      "jQuery",
     ],
     // p = [
     //   {
@@ -13828,18 +13828,18 @@ function k0() {
     // ],
     b = [
       {
-        title: "Web Developer (Intern)",
+        title: "Front End Developer (Intern)",
         company: "CV Karya Hidup Sentosa",
         period: "2022 - 2023",
         description:
-          "Focusing on creating clean, responsive, and functional web applications, with hands-on experience in building and maintaining websites.",
+          "Focusing on creating clean, responsive and functional web applications, and maintaining websites.",
       },
       {
         title: "Full Stack Developer",
         company: "CV Karya Hidup Sentosa",
         period: "2023 - 2025",
         description:
-          "Built responsive websites and web applications, gained experience in modern web technologies and agile development methodologies.",
+          "Building responsive web applications by handling both front-end interfaces and back-end logic.",
       },
     ],
     s = [
@@ -13848,15 +13848,15 @@ function k0() {
         institution: "SMK N 2 Depok Sleman",
         period: "2019 - 2023",
         description:
-          "Graduated from a vocational high school, where I built a foundation in programming and computer systems. My studies introduced me to web development technologies like HTML, CSS, JavaScript, and PHP.",
+          "Graduated from a vocational high school, where I built a foundation in programming and computer systems.",
       },
-      //   {
-      //     degree: "Full Stack Web Development Bootcamp",
-      //     institution: "Code Academy",
-      //     period: "2019",
-      //     description:
-      //       "Intensive 6-month program covering modern web development technologies and best practices.",
-      //   },
+      {
+        degree: "Sistem Informasi",
+        institution: 'Universitas Pembangunan Nasional "Veteran" Yogyakarta',
+        period: "2025 - now",
+        description:
+          "Currently studying information systems and still on the journey as a student.",
+      },
     ];
   return E.jsxs("div", {
     className: "min-h-screen bg-background",
@@ -13868,6 +13868,7 @@ function k0() {
           className: "container-max",
           children: E.jsxs("div", {
             className: "flex items-center justify-between h-16",
+            style: { padding: "15px" },
             children: [
               E.jsx("div", {
                 className: "text-xl font-bold text-gradient",
@@ -14000,7 +14001,7 @@ function k0() {
                     E.jsx("p", {
                       className: "text-lg text-muted-foreground mb-6",
                       children:
-                        "I'm a passionate full-stack developer with a strong background in creating web applications that solve real-world problems.",
+                        "I'm a passionate full-stack developer with a background in creating web applications that solve real-world problems.",
                     }),
                     E.jsx("p", {
                       className: "text-lg text-muted-foreground mb-6",
@@ -14016,7 +14017,7 @@ function k0() {
                       children: "Skills & Technologies",
                     }),
                     E.jsx("div", {
-                      className: "flex flex-wrap gap-2",
+                      className: "flex flex-wrap gap-3",
                       children: f.map((S, _) =>
                         E.jsx(
                           Iu,
