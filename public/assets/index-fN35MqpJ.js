@@ -13868,7 +13868,7 @@ function k0() {
           className: "container-max",
           children: E.jsxs("div", {
             className: "flex items-center justify-between h-16",
-            style: { padding: "15px" },
+            // style: { padding: "15px" },
             children: [
               E.jsx("div", {
                 className: "text-xl font-bold text-gradient",
@@ -13919,7 +13919,7 @@ function k0() {
           className: "container-max",
           children: E.jsxs("div", {
             className: "flex flex-col md:flex-row flex-col gap-12",
-            style: { marginTop: "30px" },
+            style: { marginTop: "60px" },
             children: [
               E.jsxs("div", {
                 className: "flex-1 text-center md:text-left",
